@@ -32,4 +32,4 @@ client.Dispatcher.on(Events.MESSAGE_CREATE, function (e) {
 
 var httpServer = http.createServer(app).listen(9000, function () {
 	console.log('HTTP express server connected at port 9000');
-})
+});
